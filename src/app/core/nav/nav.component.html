@@ -5,6 +5,7 @@
   </div>
 
   <div class="mdl-navigation mdl-js-ripple-effect">
-    <a *ngFor="let item of menuItems" class="nav-link" href="#">{{item.caption}}</a>
+    <a *ngFor="let item of menuItems" class="nav-link" [routerLink]="item.link" 
+    routerLinkActive="router-link-active" href="">{{item.caption}}</a>
   </div>
 </header>
