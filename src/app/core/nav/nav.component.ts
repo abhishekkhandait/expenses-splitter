@@ -6,7 +6,7 @@ class MenuItems {
 
 @Component({
   moduleId: module.id,
-  selector: 'es-nav',
+  selector: 'app-es-nav',
   templateUrl: './nav.component.html',
   styleUrls: ['./nav.component.css']
 })
@@ -14,7 +14,7 @@ export class NavComponent implements OnInit {
   menuItems: MenuItems[];
 
   constructor() { }
-  
+
   ngOnInit() {
     this.menuItems = [
       { caption: 'Home', link: ['/home'] },

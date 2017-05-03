@@ -3,7 +3,7 @@ import { Tenant } from '../../../models/tenant.model';
 
 @Component({
   moduleId: module.id,
-  selector: 'es-home-card',
+  selector: 'app-es-home-card',
   templateUrl: './card.component.html',
   styleUrls: ['./card.component.css']
 })

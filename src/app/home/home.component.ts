@@ -2,7 +2,7 @@ import { Component, Input, OnInit } from '@angular/core';
 import { _tenants } from '../models/tenant.model';
 
 @Component({
-  selector: 'es-home',
+  selector: 'app-es-home',
   templateUrl: './home.component.html',
   styleUrls: ['./home.component.css']
 })
